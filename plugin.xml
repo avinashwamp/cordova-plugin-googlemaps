@@ -203,7 +203,7 @@
 
         <preference name="NSLocationAlwaysUsageDescription" default="Trace your location on the map" />
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-            <string>$NSLocationAlwaysUsageDescription</string>
+            <string>This app requires constant access to your location in order to track your position.</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
