@@ -198,7 +198,7 @@
 
         <preference name="NSLocationWhenInUseUsageDescription" default="Show your location on the map" />
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-            <string>$NSLocationWhenInUseUsageDescription</string>
+            <string>This app requires constant access to your location in order to track your position.</string>
         </config-file>
 
         <preference name="NSLocationAlwaysUsageDescription" default="Trace your location on the map" />
