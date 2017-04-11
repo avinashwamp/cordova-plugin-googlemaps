@@ -589,8 +589,8 @@
         // kCLAuthorizationStatusRestricted
         //----------------------------------------------------
         UIAlertView *alertView = [[UIAlertView alloc]
-                                  initWithTitle:@"Location Services disabled"
-                                  message:@"This app needs access to your location. Please turn on Location Services in your device settings."
+                                  initWithTitle:@"Servicios de localización desactivados"
+                                  message:@"Esta aplicación necesita acceso a tu ubicación. Activa Servicios de ubicación en la configuración de tu dispositivo."
                                   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
         [alertView show];
 
